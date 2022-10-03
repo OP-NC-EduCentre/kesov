@@ -11,7 +11,7 @@ CREATE TABLE Estate
 (
     estate_id number(4),
     owner number(4),
-    adress varchar(50),
+    address varchar(50),
     space number(4,2),
     dateOfCreation DATE
 );
