@@ -1,0 +1,65 @@
+
+Error starting at line : 5 in command -
+INSERT into Owners (owner_id,name,telephone_number,dateofbirth) values (3,'Anton',380922454,null)
+Error report -
+ORA-00001: нарушено ограничение уникальности (KESOV_TEST.NUMBER_UNIQUE)
+
+
+Error starting at line : 6 in command -
+INSERT into Owners (owner_id,name,telephone_number,dateofbirth) values (5,'Roman',380111114,null)
+Error report -
+ORA-00001: нарушено ограничение уникальности (KESOV_TEST.NUMBER_UNIQUE)
+
+
+Error starting at line : 7 in command -
+insert into Estate (estate_id,owner,address,space,dateofcreation) values (300,3,'Freedom street 46',19.5,null)
+Error report -
+ORA-00001: нарушено ограничение уникальности (KESOV_TEST.ADDRESS_UNIQUE)
+
+
+Error starting at line : 8 in command -
+insert into Estate (estate_id,owner,address,space,dateofcreation) values (301,5,'Freedom street 22',19.5,null)
+Error report -
+ORA-00001: нарушено ограничение уникальности (KESOV_TEST.ADDRESS_UNIQUE)
+
+
+Error starting at line : 10 in command -
+alter table Owners add dateOfRegistration date
+Error report -
+ORA-01430: добавляемый столбец уже существует в таблице
+01430. 00000 -  "column being added already exists in table"
+*Cause:    
+*Action:
+
+Error starting at line : 12 in command -
+INSERT into Owners (owner_id,name,telephone_number,dateofbirth) values (4,'Artem',38094565,null,null)
+Error at Command Line : 12 Column : 13
+Error report -
+SQL Error: ORA-00913: слишком много значений
+00913. 00000 -  "too many values"
+*Cause:    
+*Action:
+
+Session altered.
+
+
+Error starting at line : 16 in command -
+INSERT into Owners (owner_id,name,telephone_number,dateofbirth) values (4,'Artem',380933456,'22/02/2001','20/09/2022')
+Error at Command Line : 16 Column : 13
+Error report -
+SQL Error: ORA-00913: слишком много значений
+00913. 00000 -  "too many values"
+*Cause:    
+*Action:
+
+Error starting at line : 18 in command -
+insert into Estate (estate_id,owner,address,space,dateofcreation) values (400,3,'Freedom street 46',19.5,null)
+Error report -
+ORA-00001: нарушено ограничение уникальности (KESOV_TEST.ADDRESS_UNIQUE)
+
+
+Error starting at line : 20 in command -
+insert into Estate (estate_id,owner,address,space,dateofcreation) values (300,5,'Freedom street 46',19.5,null)
+Error report -
+ORA-00001: нарушено ограничение уникальности (KESOV_TEST.ADDRESS_UNIQUE)
+

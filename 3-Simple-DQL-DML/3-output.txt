@@ -1,0 +1,24 @@
+
+  OWNER_ID NAME            TELEPHONE_NUMBER DATEOFBIRT
+---------- --------------- ---------------- ----------
+         5 Roman                  380111114           
+         3 Anton                  380922454           
+
+
+  OWNER_ID NAME            TELEPHONE_NUMBER DATEOFBIRT
+---------- --------------- ---------------- ----------
+         3 Anton                  380922454           
+
+no rows selected
+
+  OWNER_ID NAME            TELEPHONE_NUMBER DATEOFBIRT
+---------- --------------- ---------------- ----------
+         3 Anton                  380922454           
+         5 Roman                  380111114           
+
+
+  OWNER_ID NAME            TELEPHONE_NUMBER DATEOFBIRT
+---------- --------------- ---------------- ----------
+         3 Anton                  380922454           
+
+no rows selected
