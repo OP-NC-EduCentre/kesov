@@ -1,0 +1,25 @@
+
+  COUNT(*)
+----------
+         2
+
+
+SUM(OWNER_ID)
+-------------
+            8
+
+
+Freedom46 in addresses
+----------------------
+                     1
+
+
+Artem's houses
+--------------
+             1
+
+
+Artem's houses
+--------------
+             1
+
